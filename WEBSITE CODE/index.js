@@ -191,7 +191,7 @@ $(".audio16").mouseleave(function() {
 });
 
 $(document).ready(function(){
-$(".zoom1").mousedown(function() {
+$(".zoom1").mouseenter(function() {
     $("#zoom")[0].play();
  });
 });
