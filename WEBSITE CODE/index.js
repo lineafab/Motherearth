@@ -149,8 +149,8 @@ $(".audio13").mouseenter(function() {
 });
 
 $(document).ready(function(){
-$(".audio13").mouseleave(function() {
-    $("#sound13")[0].pause();
+$(".audio14").mouseleave(function() {
+    $("#sound14")[0].pause();
  });
 });
 
