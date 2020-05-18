@@ -154,6 +154,18 @@ $(".audio13").mouseleave(function() {
  });
 });
 
+$(document).ready(function(){
+$(".audio14").mouseenter(function() {
+    $("#sound14")[0].play();
+ });
+});
+
+$(document).ready(function(){
+$(".audio14").mouseleave(function() {
+    $("#sound14")[0].pause();
+ });
+});
+
 
 
 
