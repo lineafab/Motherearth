@@ -67,7 +67,7 @@ abbr{
 
 [role="tooltip"] {
   position: absolute;
-  top: 10px;; left: 20px;
+  top: 28px;; left: 160px;
   width: auto;
   white-space: nowrap;
   background-color: #1e1e1e;
@@ -76,8 +76,8 @@ abbr{
   border-radius: 95px;
   box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
   font-family:'UniversLTStd';
-  font-size: 25px;
-  padding: 6px 10px;
+  font-size: 27.2px;
+  padding: 10px 10px;
   background-color: var(--white-full);
   z-index: 10001;
 }
