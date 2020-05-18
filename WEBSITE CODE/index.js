@@ -190,6 +190,19 @@ $(".audio16").mouseleave(function() {
  });
 });
 
+$(document).ready(function(){
+$(".btn zoom").mousedown(function() {
+    $("#zoom")[0].play();
+ });
+});
+
+$(document).ready(function(){
+$(".btn zoom").mouseleave(function() {
+    $("#zoom")[0].pause();
+ });
+});
+
+
 
 
 
