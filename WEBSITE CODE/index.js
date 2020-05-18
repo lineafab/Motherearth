@@ -191,13 +191,13 @@ $(".audio16").mouseleave(function() {
 });
 
 $(document).ready(function(){
-$(".btn zoom").mousedown(function() {
+$(".zoom1").mousedown(function() {
     $("#zoom")[0].play();
  });
 });
 
 $(document).ready(function(){
-$(".btn zoom").mouseleave(function() {
+$(".zoom1").mouseleave(function() {
     $("#zoom")[0].pause();
  });
 });
