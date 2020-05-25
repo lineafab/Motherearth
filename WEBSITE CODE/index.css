@@ -50,13 +50,12 @@ a:-webkit-any-link:hover {
 
 abbr {
   font-family: 'UniversLTStd';
-  top: 100px;
+  top: 0px;
   font-size: 5.9vw;
   color: var(--textcolor-full);
   z-index: 10000;
   position: absolute;
-  background-color: blue;
-  width: 700px;
+  width: 2000px;
 }
 
 [data-tooltip] {
