@@ -186,6 +186,10 @@
           </div>
         </div>
 
+        <div class="grid-item grid-item--width2 youtube">
+          <iframe width="1000" height="1390" src="https://www.youtube.com/embed/dYVlv-RNt2A?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
         <div class="grid-item grid-item--width2">
           <img class="image-zoom-available" src="images/1000x1390_E2.png" draggable=false>
         </div>
@@ -348,6 +352,12 @@
           <video width="100%" height="auto" muted autoplay loop>
             <source src="video/P9.mp4" type="video/mp4"></video>
         </div>
+
+        <div class="grid-item grid-item--width2">
+          <video width="100%" height="auto" muted autoplay loop>
+            <source src="video/test11.mp4" type="video/mp4"></video>
+        </div>
+
 
         <div class="grid-item grid-item--width2">
           <video width="100%" height="auto" muted autoplay loop>
@@ -536,20 +546,20 @@
       }
 
 
-      // var zoom = 1;
-      //
-      // $('.zoom').on('click', function() {
-      //   zoom += 0.1;
-      //   $('.target').css('zoom', zoom);
-      // });
-      // $('.zoom-init').on('click', function() {
-      //   zoom = 1;
-      //   $('.target').css('zoom', zoom);
-      // });
-      // $('.zoom-out').on('click', function() {
-      //   zoom -= 0.1;
-      //   $('.target').css('zoom', zoom);
-      // });
+      var zoom = 1;
+
+      $('.zoom').on('click', function() {
+      zoom += 0.1;
+       $('.target').css('zoom', zoom);
+      });
+       $('.zoom-init').on('click', function() {
+        zoom = 1;
+      $('.target').css('zoom', zoom);
+      });
+      $('.zoom-out').on('click', function() {
+      zoom -= 0.1;
+      $('.target').css('zoom', zoom);
+      });
     </script>
 
 </body>
