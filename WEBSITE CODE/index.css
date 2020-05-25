@@ -42,7 +42,7 @@ a:-webkit-any-link:hover {
 
 .boxframe {
   top: 0px;
-  width: 150vw;
+  width: 250vw;
   height: 20vh;
   background-color: var(--whitetranspoart);
   border: 1px solid var(--textcolor-full);
@@ -50,12 +50,13 @@ a:-webkit-any-link:hover {
 
 abbr {
   font-family: 'UniversLTStd';
-  top: 0px;
-  font-size: 5.9vw;
+  top: 30px;
+  font-size: 6.3vw;
   color: var(--textcolor-full);
   z-index: 10000;
   position: absolute;
   width: 2000px;
+  display: block;
 }
 
 [data-tooltip] {
@@ -66,7 +67,7 @@ abbr {
 
 [role="tooltip"] {
   position: absolute;
-  top: 28px;
+  top: 88px;
   left: 160px;
   width: auto;
   white-space: nowrap;
@@ -86,14 +87,18 @@ abbr {
   display: none;
 }
 
+
+
 .grid-pane {
   vertical-align: top;
-  top: 130px;
+  top: 120px;
   left: 70px;
-  position: absolute;
-  width: 1950px;
+  position: relative;
 
 }
+
+
+
 
 .grid-item {
   padding: 0px;
