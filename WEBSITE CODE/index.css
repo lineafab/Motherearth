@@ -22,7 +22,7 @@
 body, html {
   height: 2000px;
   width: 4000px;
-  background-image: url(./images/Grid.png);
+  background-image: url(./images/GridE.png);
   background-repeat: repeat;
   display: flex;
 }
