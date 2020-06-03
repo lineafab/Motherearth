@@ -43,14 +43,22 @@ a:-webkit-any-link:hover {
 .boxframe {
   top: 0px;
   width: 250vw;
-  height: 20vh;
+  height: 25vh;
   background-color: var(--whitetranspoart);
   border: 1px solid var(--textcolor-full);
 }
 
+h6{
+  left:20px;
+  font-size: 40px;
+}
+
+
+
 abbr {
   font-family: 'UniversLTStd';
-  top: 30px;
+  top: 20px;
+  left: 20px;
   font-size: 6.0vw;
   color: var(--textcolor-full);
   z-index: 10000;
@@ -96,8 +104,6 @@ abbr {
   position: relative;
 
 }
-
-
 
 
 .grid-item {
@@ -181,28 +187,7 @@ overflow:hidden;
   cursor: zoom;
 }
 
-/* ---------- */
-/* @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
-}
 
-@keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
-}
-
-
-
-/* 100% Image Width on Smaller Screens */
-/* @media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-} */
-*/
-
-/* ---------- */
 button {
   position: absolute;
   height: 200px;
